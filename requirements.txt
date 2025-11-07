@@ -1,0 +1,11 @@
+jupyter
+notebook
+ipykernel
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+plotly
+folium
