@@ -1,8 +1,6 @@
-# Введение в анализ данных — портфолио домашних работ
+# Введение в анализ данных 
 
-Этот репозиторий — аккуратно оформленная подборка моих решений по курсу «Введение в анализ данных». Я целенаправленно сделал структуру удобной для обзора и воспроизведения: каждое задание лежит в своей папке с кратким описанием, ключевыми навыками и понятными шагами запуска.
-
-Если вы нанимаете специалиста по данным — этот репозиторий быстро покажет, как я работаю: от чистого кода в ноутбуках и воспроизводимых экспериментов до ясных выводов и визуализаций.
+Этот репозиторий — аккуратно оформленная подборка моих решений по курсу «Введение в анализ данных» проводимого МФТИ совместно с Яндексом.
 
 ## Что внутри
 - HW‑01 — Простой анализ данных → `hw-01_simple-data-analysis/`
@@ -17,18 +15,6 @@
 
 Отдельная папка `artifacts/` содержит HTML‑артефакты визуализаций (например, интерактивную карту и витрину «лучший ресторан»).
 
-## Быстрый старт
-1) Создать окружение (рекомендуется Python 3.10+):
-```
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-2) Запустить ноутбуки:
-```
-jupyter notebook  # или jupyter lab
-```
-3) Открыть интересующее задание в его папке (см. список выше).
 
 ## Основные навыки, которые демонстрирую
 - Python для анализа данных: NumPy, Pandas, визуализации (Matplotlib/Seaborn/Plotly)
@@ -42,7 +28,3 @@ jupyter notebook  # или jupyter lab
 ## Выборочные артефакты
 - Интерактивная карта: `artifacts/map.html`
 - Витрина по ресторанам: `artifacts/best_restaurant.html`
-
----
-
-EN (short): This repository is a curated portfolio of my solutions for the “Introduction to Data Analysis” course. Each homework sits in its own folder with a short problem summary, core skills, and run instructions. It showcases my practical data skills (EDA, ML, NN, NLP, clustering, probability & stats) with clean, reproducible notebooks.
